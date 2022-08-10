@@ -1,4 +1,4 @@
-#Calculator made with Tkinter
+# Calculator made with Tkinter
 Basic calculator made for practice with python and to learn a bit of TKinter
 
 ![preview picture](preview.png "Preview picture")
