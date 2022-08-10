@@ -1,0 +1,10 @@
+__pycache__
+.vscode
+temporary
+tests.py
+To_do.txt
+Lib
+env
+Scripts
+pyvenv.cfg
+Include
