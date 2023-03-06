@@ -1,3 +1,5 @@
-from calcapp import build_app
+from calcapp.main import root
 
-build_app()
+
+# Start of application window
+root.mainloop()
