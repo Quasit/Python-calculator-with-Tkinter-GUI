@@ -25,5 +25,5 @@ Even tho it is just calculator, it still had some coding and logic to do, becaus
 
 ### Installation:
 - Activate venv
-- pip install -e .
+- pip install -r requirements.txt
 - python3 start.py
