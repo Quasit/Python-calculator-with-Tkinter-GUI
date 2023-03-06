@@ -13,3 +13,4 @@ venv/
 .coverage
 project/
 *.egg-info/
+.venv
