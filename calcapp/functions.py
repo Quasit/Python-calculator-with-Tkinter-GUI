@@ -1,4 +1,4 @@
-import globals as gl
+import calcapp.globals as gl
 
 
 def click(label, string):

@@ -8,3 +8,8 @@ env
 Scripts
 pyvenv.cfg
 Include
+venv/
+.pytest_cache/
+.coverage
+project/
+*.egg-info/

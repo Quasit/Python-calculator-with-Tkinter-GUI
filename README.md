@@ -12,7 +12,7 @@ For now it contains just basic functions like:
 
 I might add more in the future
 
-Even tho it does not contain that much functions, it still had some coding to do.
+Even tho it is just calculator, it still had some coding and logic to do, because of buttons functionality.
 
 ### Main features:
 - Input checking (for example: only one 0 at front of the fraction, or only one dot per number, and more)
@@ -21,3 +21,9 @@ Even tho it does not contain that much functions, it still had some coding to do
 - Correct order of operations
 - For percentage: replace last number with calculated number: if last operation is adding, or subtracting, it will calculate whole input and insert right number instead percentage; if last operation is multiplying or dividing it will divide last number by 100
 - Copying to clipboard
+
+
+### Installation:
+- Activate venv
+- pip install -e .
+- python3 start.py

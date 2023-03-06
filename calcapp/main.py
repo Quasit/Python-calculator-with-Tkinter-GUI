@@ -1,7 +1,7 @@
 import tkinter as tk
 #from tkinter import ttk
-from functions import click
-import globals as gl
+from calcapp.functions import click
+import calcapp.globals as gl
 
 # Main file, which builds application window, and it's content like labels and buttons
 
@@ -11,9 +11,6 @@ def onKeyPress(event):
 
 def copy_to_clipboard(event):
     root.clipboard_append(gl.output)
-
-# Initialization of global variable
-gl.init()
 
 # Application root configuration
 root = tk.Tk()
@@ -93,6 +90,3 @@ frame.pack()
 root.bind('<Key>', onKeyPress)
 root.bind('<Return>', lambda solve: click(label, '=')) # Since event.keysym == 'Return' wasn't working, had to make separate bind for it
 root.bind('<Control-c>', copy_to_clipboard)
-
-# Start of application window
-root.mainloop()
