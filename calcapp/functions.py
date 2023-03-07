@@ -87,7 +87,7 @@ def convert(string):
         string = '÷'
     elif string == 'asterisk':
         string = '×'
-    elif string == 'comma':
+    elif string == 'comma' or string == 'period':
         string = '.'
     elif string == 'plus':
         string = '+'
@@ -157,7 +157,7 @@ def is_percentage_possible():
     index = len(gl.output)-1
     numbers = '0123456789'
     signs = ['÷', '×', '-', '+']
-    if gl.output[index] in numbers:
+    if index > 0 and gl.output[index] in numbers:
         while index > 1:
             if gl.output[index] in signs and gl.output[index-1] in numbers:
                 return True
